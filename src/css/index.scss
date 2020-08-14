@@ -1,0 +1,12 @@
+@import "./css-reset";
+@import "./variables";
+@import "./fonts";
+body{
+    background-color: $clr-4;
+    color: $clr-1;
+}
+@import "./nav";
+@import "./header";
+@import "./welcome";
+@import "./event";
+@import "./footer";

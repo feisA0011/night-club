@@ -1,0 +1,33 @@
+#header{
+    
+   
+    
+    position: relative;
+ background-color: $clr-4;
+        
+        .header-img{
+            width: 100%;
+            object-fit: cover;
+            height: 100vh;
+            background-position: center;
+        }
+        .header-logo{
+            width: 180px;
+            position: absolute;
+            z-index: 1;
+            top: 301px;
+            left: 122px;
+        }
+        .header-slogan{
+            color: $clr-1;
+            font-size: 0.6rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-family: $font-family;
+            position: absolute;
+            top: 330px;
+            left: 143px;
+
+        }
+    
+}

@@ -1,0 +1,17 @@
+.event-section-title{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    font-family: $font-family;
+
+    .title{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+    .bottom-line{
+        width: 400px;
+        margin: 2rem 0;
+    }
+}

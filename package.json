@@ -1,0 +1,32 @@
+{
+  "name": "night-club",
+  "version": "1.0.0",
+  "description": "web app for a night club",
+  "main": "index.js",
+  "scripts": {
+    "dev":"gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feisA0011/night-club.git"
+  },
+  "author": "Feisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feisA0011/night-club/issues"
+  },
+  "homepage": "https://github.com/feisA0011/night-club#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}

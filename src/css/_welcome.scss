@@ -1,0 +1,22 @@
+.site-title{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-family: $font-family;
+
+    .title{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+    .bottom-line{
+        width: 400px;
+        margin: 2rem 0;
+    }
+    .title span{
+        color: $clr-2;
+    }
+    .welcome-images img{
+        margin-bottom: 1rem;
+    }
+}
